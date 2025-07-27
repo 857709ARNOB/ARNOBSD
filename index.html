@@ -2,8 +2,22 @@
   <head>
     <meta charset="utf-8">
     <title>arnob.com</title>
+    <style>
+      /* Ensure the body takes up the full height of the page */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      /* Make iframe take up 100% width and height of the screen */
+      iframe {
+        width: 100%;
+        height: 100vh; /* Viewport height */
+        border: none;
+      }
+    </style>
   </head>
   <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbzcOLQ331auBylnh11s0HW0NyL9iey8oiU6FPwnByv9u1M5N8fMqbgIvejxxqx2uUgoXA/exec" style="border: none;" width="100%" height="500px" scrolling="no"></iframe>
+    <iframe src="https://script.google.com/macros/s/AKfycbzcOLQ331auBylnh11s0HW0NyL9iey8oiU6FPwnByv9u1M5N8fMqbgIvejxxqx2uUgoXA/exec" scrolling="no"></iframe>
   </body>
 </html>
